@@ -1,0 +1,27 @@
+[debug] [2017-09-13T12:14:56.071Z] ----------------------------------------------------------------------
+[debug] [2017-09-13T12:14:56.075Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2017-09-13T12:14:56.076Z] CLI Version:   3.10.1
+[debug] [2017-09-13T12:14:56.076Z] Platform:      darwin
+[debug] [2017-09-13T12:14:56.076Z] Node Version:  v7.1.0
+[debug] [2017-09-13T12:14:56.076Z] Time:          Wed Sep 13 2017 21:14:56 GMT+0900 (KST)
+[debug] [2017-09-13T12:14:56.076Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-13T12:14:56.092Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-13T12:14:56.092Z] > authorizing via signed-in user
+[debug] [2017-09-13T12:14:56.095Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/howlcoding  
+ Wed Sep 13 2017 21:14:56 GMT+0900 (KST)
+[debug] [2017-09-13T12:14:57.061Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T12:14:57.063Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/howlcoding/tokens  
+ Wed Sep 13 2017 21:14:57 GMT+0900 (KST)
+[debug] [2017-09-13T12:14:57.814Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/myeongsic/WebstormProjects/howlfirebase'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-09-13T12:14:58.052Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/howlcoding  
+ Wed Sep 13 2017 21:14:58 GMT+0900 (KST)
+[debug] [2017-09-13T12:14:58.053Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/howlcoding/apiKeys  
+ Wed Sep 13 2017 21:14:58 GMT+0900 (KST)
+[debug] [2017-09-13T12:14:59.105Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-13T12:14:59.107Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: addMessage: http://localhost:5000/howlcoding/us-central1/addMessage
